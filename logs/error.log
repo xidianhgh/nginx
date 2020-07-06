@@ -1,0 +1,56 @@
+2020/05/27 22:31:56 [error] 13116#10944: *1 CreateFile() "D:\software\nginx-1.19.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2020/05/27 22:59:55 [error] 5312#12964: *4 CreateFile() "D:\software\nginx-1.19.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:1234", referrer: "http://localhost:1234/demo/test/first"
+2020/05/27 23:13:32 [error] 12300#14856: *2 limiting requests, excess: 1.019 by zone "req_one", client: 127.0.0.1, server: localhost, request: "GET /demo/test/first HTTP/1.1", host: "localhost:1234"
+2020/05/27 23:13:37 [error] 12300#14856: *9 limiting requests, excess: 1.057 by zone "req_one", client: 127.0.0.1, server: localhost, request: "GET /demo/test/first HTTP/1.1", host: "localhost:1234"
+2020/05/27 23:13:54 [error] 12300#14856: *14 limiting requests, excess: 1.026 by zone "req_one", client: 127.0.0.1, server: localhost, request: "GET /demo/test/first HTTP/1.1", host: "localhost:1234"
+2020/05/28 00:22:20 [error] 7328#12884: *1 CreateFile() "D:\software\nginx-1.19.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.xidiankaka.com, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:1234", referrer: "http://127.0.0.1:1234/eurekaclient/test/a"
+2020/05/28 00:22:23 [error] 7328#12884: *4 CreateFile() "D:\software\nginx-1.19.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: www.xidiankaka.com, request: "GET /favicon.ico HTTP/1.1", host: "www.xidiankaka.com:1234", referrer: "http://www.xidiankaka.com:1234/eurekaclient/test/a"
+2020/07/04 17:40:38 [error] 8736#3828: *1 CreateFile() "D:\pic\yaoyunxiaoli/images/xidian.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /images/xidian.png HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 17:40:38 [error] 8736#3828: *1 CreateFile() "D:\software\nginx-1.19.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:9010", referrer: "http://127.0.0.1:9010/images/xidian.png"
+2020/07/04 17:42:45 [emerg] 13452#10920: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:42:45 [emerg] 13912#13024: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:42:49 [error] 8736#3828: *3 CreateFile() "D:\pic\yaoyunxiaoli/images/xidian.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /images/xidian.png HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 17:42:51 [error] 8736#3828: *3 CreateFile() "D:\pic\yaoyunxiaoli/images/xidian.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /images/xidian.png HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 17:42:51 [error] 8736#3828: *3 CreateFile() "D:\pic\yaoyunxiaoli/images/xidian.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /images/xidian.png HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 17:42:56 [emerg] 8796#1252: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:42:56 [emerg] 4748#14616: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:43:49 [emerg] 9740#14552: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:43:49 [emerg] 11864#8960: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:43:59 [emerg] 9628#5172: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:44:29 [emerg] 11764#11560: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:44:48 [emerg] 6560#11348: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:46:12 [emerg] 13608#3996: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:46:12 [emerg] 6988#2044: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:46:15 [emerg] 7888#3784: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:47:22 [emerg] 1688#5448: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:47:26 [emerg] 4876#212: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:48:38 [emerg] 13504#5160: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:50:00 [emerg] 8456#3640: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:50:16 [emerg] 12928#6428: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:54:28 [emerg] 8900#13728: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:54:50 [emerg] 7808#13172: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:57:32 [emerg] 6280#6292: invalid number of arguments in "root" directive in D:\software\nginx-1.19.0/conf/nginx.conf:65
+2020/07/04 17:59:09 [notice] 4104#3648: signal process started
+2020/07/04 17:59:09 [error] 4104#3648: OpenEvent("Global\ngx_stop_8016") failed (2: The system cannot find the file specified)
+2020/07/04 17:59:09 [notice] 2972#8764: signal process started
+2020/07/04 17:59:09 [error] 2972#8764: OpenEvent("Global\ngx_reload_8016") failed (2: The system cannot find the file specified)
+2020/07/04 17:59:42 [error] 8228#10244: *2 CreateFile() "D:\software\nginx-1.19.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:9010", referrer: "http://127.0.0.1:9010/images/xidian.png"
+2020/07/04 17:59:45 [error] 8228#10244: *2 CreateFile() "D:\pic\yaoyunxiaoli/images/xidian.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /images/xidian.png HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 18:02:05 [notice] 5436#13796: signal process started
+2020/07/04 18:04:07 [error] 11660#13876: *1 CreateFile() "D:/pic/yaoyunxiaoli/images/xidian.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /images/xidian.png HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 18:04:25 [notice] 7340#9196: signal process started
+2020/07/04 18:04:29 [error] 4636#11356: *1 CreateFile() "D:/pic/yaoyunxiaoli/images/xidian.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /images/xidian.png HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 18:04:31 [error] 4636#11356: *1 CreateFile() "D:/pic/yaoyunxiaoli/images/xidian.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /images/xidian.png HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 18:04:31 [error] 4636#11356: *1 CreateFile() "D:/pic/yaoyunxiaoli/images/xidian.png" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /images/xidian.png HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 18:04:59 [error] 4636#11356: *1 CreateFile() "D:/pic/yaoyunxiaoli/images/Brazil.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /images/Brazil.jpg HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 18:05:01 [error] 4636#11356: *1 CreateFile() "D:/pic/yaoyunxiaoli/images/Brazil.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /images/Brazil.jpg HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 18:06:06 [error] 4636#11356: *5 CreateFile() "D:\software\nginx-1.19.0/html/Brazil.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /Brazil.jpg HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 18:06:09 [error] 4636#11356: *5 CreateFile() "D:\software\nginx-1.19.0/html/Brazil.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /Brazil.jpg HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 18:08:34 [notice] 9960#11608: signal process started
+2020/07/04 18:08:34 [notice] 3596#1800: signal process started
+2020/07/04 18:08:38 [error] 11660#5688: *6 CreateFile() "D:\software\nginx-1.19.0/html/Brazil.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /Brazil.jpg HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 18:08:52 [error] 13940#4908: *1 CreateFile() "D:\software\nginx-1.19.0/html/Brazil.jpg" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: 192.168.0.206, request: "GET /Brazil.jpg HTTP/1.1", host: "127.0.0.1:9010"
+2020/07/04 23:30:58 [error] 13940#4908: *8 CreateFile() "D:\software\nginx-1.19.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.0.108, server: 192.168.0.206, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.108:9010", referrer: "http://192.168.0.108:9010/images/Brazil.jpg"
+2020/07/05 02:46:27 [error] 13424#15172: *1 CreateFile() "D:\software\nginx-1.19.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.0.108, server: 192.168.0.206, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.108:9010", referrer: "http://192.168.0.108:9010/images/Brazil.jpg"
+2020/07/05 02:48:00 [error] 13424#15172: *3 CreateFile() "D:\software\nginx-1.19.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.0.107, server: 192.168.0.206, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.108:9010", referrer: "http://192.168.0.108:9010/images/xidian.png"
+2020/07/05 02:49:26 [error] 13424#15172: *4 CreateFile() "D:\software\nginx-1.19.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.0.107, server: 192.168.0.206, request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.108:9010", referrer: "http://192.168.0.108:9010/images/txt/Brazil0.jpg"
